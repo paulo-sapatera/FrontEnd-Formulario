@@ -16,7 +16,7 @@ C#
 Banco de dados SQL Server
 
 
-👸 Autores
+Autores
 Paulo Sapatera
 Breno Maran
 João Aldo
