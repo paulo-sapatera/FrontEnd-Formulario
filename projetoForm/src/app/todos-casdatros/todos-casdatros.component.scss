@@ -1,0 +1,66 @@
+.main{
+  max-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  padding: 20px;
+  justify-content: center;
+}
+
+.dados{
+  min-width: 32%;
+  height: auto;
+  margin: 10px;
+}
+
+.dados__container{
+  height: 100%;
+  width: 100%;
+  padding:15px;
+  flex-direction: column;
+  background-color: white;
+  opacity: 0.9;
+  
+}
+
+.dados__container h1{
+  font-weight: 900;
+}
+
+.dados__info{
+  display: flex;
+  border-bottom: 1px dotted #bcbcbc;
+  
+}
+
+.dados__info h3{
+  width: 150px;
+  margin-top: 20px;
+  font-weight: 700;
+}
+
+.dados__info p{
+  flex: 1;
+  margin: 0px;
+  margin-top: 25px;
+}
+
+.dados__button{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+  padding: 10px 5px;
+}
+
+.dados__button button{
+  width: 150px;
+  text-transform: uppercase;
+  font-size: 14px;
+ 
+}
+
+.dados__button button:nth-child(1){
+  margin-right: 15px;
+}

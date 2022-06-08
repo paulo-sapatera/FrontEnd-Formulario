@@ -1,0 +1,32 @@
+.header-container{
+   width: 100vw;
+   height: 50px;
+   background: rgba(51, 51, 51, 0.65);
+   color:white;
+   display: flex;
+   padding: 0px 20px;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.header-container h1{
+    height: 90%;
+    display: flex;
+    align-items: flex-end;
+    
+ }
+
+ .container-button{
+     width: 250px;
+     padding: 0px 20px;
+     display: flex;
+     justify-content: space-between;
+    
+ }
+
+ .container-button button{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 900;
+   
+}

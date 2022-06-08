@@ -1,0 +1,70 @@
+<section class="main" *ngIf="cadastros$ | async as cadastros">
+<section *ngFor="let cadastro of cadastros" class="dados">
+  <article class="dados__container">
+    <h1>Aluno Cadastrado</h1>
+    <div class="dados__info">
+      <h3>Nome</h3>
+      <p>{{ cadastro.nome }}</p>
+    </div>
+
+    <div class="dados__info">
+      <h3>Email</h3>
+      <p>{{ cadastro.email }}</p>
+    </div>
+
+    <div class="dados__info">
+      <h3>Data Nascimento</h3>
+      <p>{{ cadastro.data | date: 'short' }}</p>
+    </div>
+
+    <div class="dados__info">
+      <h3>Telefone</h3>
+      <p>{{ cadastro.telefone }}</p>
+    </div>
+
+    <div class="dados__info">
+      <h3>Sexo</h3>
+      <p>{{ cadastro.sexo }}</p>
+    </div>
+
+    <div class="dados__info">
+      <h3>Cep</h3>
+      <p>{{ cadastro.cep }}</p>
+    </div>
+
+    <div class="dados__info">
+      <h3>Tipo Ensino</h3>
+      <p>{{ cadastro.ensino }}</p>
+    </div>
+
+    <div class="dados__info">
+      <h3>Curso</h3>
+      <p>{{ cadastro.curso }}</p>
+    </div>
+
+    <div class="dados__info">
+      <h3>Endereço</h3>
+      <p>{{ cadastro.endereco }}</p>
+    </div>
+
+    <div class="dados__button">
+      <a routerLink="/update/{{ cadastro.id }}" class="edit">
+        <button
+         class="btn btn-primary"
+          title="Click para editar tarefa"
+        >
+          editar
+        </button>
+      </a>
+      <button
+        (click)="deleteCadastro(cadastro)"
+        class="btn btn-danger"
+        title="Click para deletar tarefa"
+      >
+        delete
+      </button>
+    </div>
+    
+  </article>
+</section>
+</section>
