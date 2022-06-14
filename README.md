@@ -2,7 +2,7 @@
 
 
 🖥️ Sobre
-Formulário desenvolvido para avaliação na universidade Unimetrocamp. A Aplicação faz as operações de CRUD no projeto ou seja: Cria, exibe, atualiza e deleta as tarefas.
+Formulário desenvolvido para avaliação na universidade Unimetrocamp. A Aplicação faz as operações de CRUD no projeto ou seja: Cria, exibe, atualiza e deleta cadastros de alunos.
 
 
 
